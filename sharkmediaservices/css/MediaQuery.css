@@ -1,0 +1,206 @@
+@media screen and (max-width:1025px) {
+    .smoothScroll{
+        padding-block: 0px !important;
+    }
+    .nav {
+        width: 100% !important;
+    }
+    
+}
+@media screen and (max-width:769px) {
+    .smoothScroll{
+        padding-block: 13px !important;
+    }
+}
+@media screen and (max-width:426px) {
+    .navbar-collapse{
+        box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+    }.navigationwrape {
+        width: 100% !important;
+    }
+}
+@media screen and (max-width:1025px) {
+    .hero-image #bgvid{
+        display: block;
+  min-height: 100%;
+  min-width: 100%;
+  max-width: -webkit-fill-available;
+  filter: brightness(0.3);
+  object-fit: cover !important;
+
+    }
+}
+
+/* we are creative css */
+.default-portfolio-item {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 20px;
+  list-style: none;
+  padding: 0;
+  margin: 0 auto;
+  justify-content: center;
+}
+
+.default-portfolio-item li {
+  flex: 1 1 calc(33.33% - 20px); /* Three items per row */
+  max-width: calc(33.33% - 20px);
+  box-sizing: border-box;
+}
+
+@media (max-width: 768px) {
+  .default-portfolio-item li {
+    flex: 1 1 calc(50% - 20px); /* Two items per row */
+  }
+}
+
+@media (max-width: 480px) {
+  .default-portfolio-item li {
+    flex: 1 1 100%; /* Single item per row */
+  }
+}
+
+.inner-box {
+  position: relative;
+  overflow: hidden;
+  border-radius: 10px;
+  transition: transform 0.3s ease;
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+}
+
+.inner-box:hover {
+  transform: scale(1.05);
+}
+
+.image-box img {
+  display: block;
+  width: 100%;
+  height: auto;
+  border-radius: 10px;
+}
+
+.overlay-box {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background-color: rgba(0, 0, 0, 0.5);
+  opacity: 0;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  transition: opacity 0.3s ease;
+  border-radius: 10px;
+}
+
+.inner-box:hover .overlay-box {
+  opacity: 1;
+}
+
+.overlay-inner h3 {
+  color: #fff;
+  font-size: 1.2rem;
+  margin: 0;
+}
+
+.overlay-inner a {
+  color: #fff;
+  text-decoration: none;
+}
+
+/* we are */
+.default-portfolio-item {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 20px;
+  list-style: none;
+  padding: 0;
+  margin: 0 auto;
+  justify-content: center;
+}
+
+.default-portfolio-item li {
+  flex: 1 1 calc(33.33% - 20px); /* Three items per row */
+  max-width: calc(33.33% - 20px);
+  box-sizing: border-box;
+}
+
+@media (max-width: 768px) {
+  .default-portfolio-item li {
+    flex: 1 1 calc(50% - 20px); /* Two items per row */
+  }
+}
+
+@media (max-width: 480px) {
+  .default-portfolio-item li {
+    flex: 1 1 100%; /* Single item per row */
+  }
+}
+
+.inner-box {
+  position: relative;
+  overflow: hidden;
+  border-radius: 10px;
+  transition: transform 0.3s ease;
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+}
+
+.inner-box:hover {
+  transform: scale(1.05);
+}
+
+.image-box {
+  width: 100%;
+  height: 200px; /* Set a fixed height for uniformity */
+  overflow: hidden; /* Hide overflow */
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.image-box img {
+  width: auto;
+  height: 100%; /* Ensure all images fill the height while maintaining aspect ratio */
+}
+
+.overlay-box {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background-color: rgba(0, 0, 0, 0.5);
+  opacity: 0;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  transition: opacity 0.3s ease;
+  border-radius: 10px;
+}
+
+.inner-box:hover .overlay-box {
+  opacity: 1;
+}
+
+.overlay-inner h3 {
+  color: #fff;
+  font-size: 1.2rem;
+  margin: 0;
+}
+
+.overlay-inner a {
+  color: #fff;
+  text-decoration: none;
+}
+
+@media screen and (max-width:768px) {
+    .client-card{
+        width: 45% !important;
+    }
+}
+@media screen and (max-width:427px) {
+    .client-card{
+        width: 100% !important;
+    }
+}
